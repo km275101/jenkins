@@ -1,0 +1,1 @@
+{"uuid":"6f8d84d1-6f74-46c4-8488-3038b2d8474d","name":"com.me.AutomationDevelop.Automation.Core.Initialize.initialize","description":"","start":1548085805579,"stop":1548085806225,"children":["13d71d1b-d1fb-48fb-9084-5d7a8aa1a163"],"befores":[{"name":"initialize","status":"passed","stage":"finished","description":"","start":1548085805579,"stop":1548085806223}]}
