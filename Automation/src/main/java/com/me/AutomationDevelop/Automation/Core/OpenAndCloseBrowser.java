@@ -13,7 +13,7 @@ public class OpenAndCloseBrowser {
 	public void setUp() throws InterruptedException {
 		System.out.println("Stating........TestNGWith Parameter");
 
-		System.setProperty("webdriver.chrome.driver", "/media/kammy/Local Disk1/iMp/chromedriver_linux64/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "./chromedriver");
 
 		String baseUrl = "https://www.amazon.in/";
 		Thread.sleep(5000);
