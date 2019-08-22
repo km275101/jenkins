@@ -30,9 +30,9 @@ public class AmazonTest
 		  System.out.println("Debug 3");
 		  WebDriver driver = new FirefoxDriver(capabilities);
 		  System.out.println("Debug 4");*/
-		 
-		 System.setProperty("webdriver.chrome.driver","/media/kammy/Local Disk1/iMp/chromedriver_linux64/chromedriver");
-		   driver = new ChromeDriver();
+		  
+		  System.setProperty("webdriver.chrome.driver","/media/kammy/Local Disk1/iMp/chromedriver_linux64/chromedriver");
+		  driver = new ChromeDriver();
 		  driver.get("https://www.google.com/?gws_rd=ssl");
 		  
 		  /*driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("One plus 6");
@@ -42,7 +42,7 @@ public class AmazonTest
 		  
 	      String s = driver.getTitle();
 	      System.out.println(s +" ------ "+ s);
-	    
+	      
 	      Thread.sleep(5000);
 	      driver.close();
 	      driver.quit();
