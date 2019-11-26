@@ -1,26 +1,24 @@
 package com.me.AutomationDevelop.Automation.Core;
 
-import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 
 public class OpenAndCloseBrowser {
-	WebDriver driver;
+	
+public static	WebDriver driver;
 	
 	@BeforeTest
 	public void setUp() throws InterruptedException {
-		System.out.println("Stating........TestNGWith Parameter");
+		System.out.println("Starting........TestNGWith Parameter");
 		String path = System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", "E://SW//chromedriver_win32//chromedriver.exe");
-        WebDriver driver = new ChromeDriver();     
+		System.setProperty("webdriver.chrome.driver", "C://SW And ImpDocs//chromedriver_win32//chromedriver_77.exe");
+        driver = new ChromeDriver();     
 		/*DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setJavascriptEnabled(true);*/
-		System.out.println("user dir "+ path+"/chromedriver");
+		System.out.println("user dir "+ path+"\\chromedriver");
 		//System.setProperty("webdriver.chrome.driver", path+"/chromedriver");
 		String baseUrl = "https://www.amazon.in/";
 		Thread.sleep(5000);

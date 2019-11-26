@@ -17,7 +17,7 @@ public class LoginPE extends ActionDriver{
 		// TODO Auto-generated constructor stub
 	}
 	
-	@FindBy(xpath="//span[text()='Your Orders']/span")
+	@FindBy(xpath="(//span[text()='Account & Lists'])[1]")
 	public WebElement yourOrders ;
 	
 	@FindBy(xpath="//input[@name='email']")

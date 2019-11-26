@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="46157" started-at="2019-02-22T16:58:04Z" finished-at="2019-02-22T16:58:51Z">
+  <suite name="Suite" duration-ms="104302" started-at="2019-11-26T18:32:55Z" finished-at="2019-11-26T18:34:40Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="46157" started-at="2019-02-22T16:58:04Z" finished-at="2019-02-22T16:58:51Z">
+    <test name="Test" duration-ms="104302" started-at="2019-11-26T18:32:55Z" finished-at="2019-11-26T18:34:40Z">
       <class name="com.me.AutomationDevelop.homeTest.LoginPF">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.me.AutomationDevelop.homeTest.LoginPF@6159fb3c]" name="setUp" is-config="true" duration-ms="21315" started-at="2019-02-22T16:58:04Z" finished-at="2019-02-22T16:58:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.me.AutomationDevelop.homeTest.LoginPF@d229912]" name="setUp" is-config="true" duration-ms="46511" started-at="2019-11-26T18:32:55Z" finished-at="2019-11-26T18:33:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.me.AutomationDevelop.homeTest.LoginPF@6159fb3c]" name="initialize" is-config="true" duration-ms="798" started-at="2019-02-22T16:58:26Z" finished-at="2019-02-22T16:58:27Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.me.AutomationDevelop.homeTest.LoginPF@d229912]" name="initialize" is-config="true" duration-ms="324" started-at="2019-11-26T18:33:42Z" finished-at="2019-11-26T18:33:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="LoginAmazon()[pri:0, instance:com.me.AutomationDevelop.homeTest.LoginPF@6159fb3c]" name="LoginAmazon" duration-ms="22435" started-at="2019-02-22T16:58:27Z" finished-at="2019-02-22T16:58:50Z">
+        <test-method status="PASS" signature="LoginAmazon()[pri:0, instance:com.me.AutomationDevelop.homeTest.LoginPF@d229912]" name="LoginAmazon" duration-ms="54069" started-at="2019-11-26T18:33:43Z" finished-at="2019-11-26T18:34:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAmazon -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.me.AutomationDevelop.homeTest.LoginPF@6159fb3c]" name="closeBrowser" is-config="true" duration-ms="507" started-at="2019-02-22T16:58:50Z" finished-at="2019-02-22T16:58:51Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.me.AutomationDevelop.homeTest.LoginPF@d229912]" name="closeBrowser" is-config="true" duration-ms="2878" started-at="2019-11-26T18:34:37Z" finished-at="2019-11-26T18:34:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

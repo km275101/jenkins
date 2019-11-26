@@ -47,6 +47,8 @@ public class LoginPF extends LoginPE{
 		try {
 			log.info("Click on your order button");
 			Thread.sleep(5000);
+			highlightElement(yourOrders);
+			reportLog("yourOrders");
 			yourOrders.click();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -60,9 +62,15 @@ public class LoginPF extends LoginPE{
 		try {
 			String username = dataProvider.getUserDetails().get(0);
 			String pass = dataProvider.getUserDetails().get(1);
+			highlightElement(userName);
+			reportLog("userName");
 			userName.sendKeys(username);
+			highlightElement(submit);
 			submit.click();
+			highlightElement(password);
 			password.sendKeys(pass);
+			reportLog("Password");
+			highlightElement(submit);
 			submit.click();
 			
 		}catch(Exception e) {

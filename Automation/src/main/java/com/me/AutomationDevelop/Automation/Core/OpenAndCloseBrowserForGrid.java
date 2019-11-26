@@ -37,7 +37,7 @@ public class OpenAndCloseBrowserForGrid {
 		String baseUrl = "https://www.amazon.in/";
 		try {
 			System.out.println(baseUrl);
-			driver = new RemoteWebDriver(new URL("http://192.168.2.8:4444/wd/hub"), options);
+			driver = new RemoteWebDriver(new URL("http://192.168.2.5:4444/wd/hub"), options);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
