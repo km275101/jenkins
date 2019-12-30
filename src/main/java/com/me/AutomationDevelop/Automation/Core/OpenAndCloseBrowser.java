@@ -5,6 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class OpenAndCloseBrowser {
 	
@@ -14,7 +16,8 @@ public static	WebDriver driver;
 	public void setUp() throws InterruptedException {
 		System.out.println("Starting........TestNGWith Parameter");
 		String path = System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", "C://SW And ImpDocs//chromedriver_win32//chromedriver.exe");
+		WebDriverManager .chromedriver().setup();
+		//System.setProperty("webdriver.chrome.driver", "C://SW And ImpDocs//chromedriver_win32//chromedriver.exe");
         driver = new ChromeDriver();     
 		/*DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setJavascriptEnabled(true);*/
