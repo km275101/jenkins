@@ -3,6 +3,7 @@
 <suite name="Suite">
   <test thread-count="1" name="Test">
     <classes>
+    
       <class name="com.me.AutomationDevelop.homeTest.LoginPF"/>
     </classes>
   </test> <!-- Test -->
